@@ -1,0 +1,90 @@
+#include <iostream>
+using namespace std;
+
+void OddorEven(int num);
+void AddSum(int n);
+void DoubleOp(int num1, int num2, char op);
+
+int main() {
+
+	OddorEven();
+	//int num;
+	//cout << "Enter an integer: ";
+	//cin >> num;
+	//if (num % 5 == 0)
+	//	cout << num << " is even. ";
+	//else
+	//	cout << num << " odd. ";
+
+	AddSum();
+	//int n;
+	//int sum = 0;
+	//cout << "Enter a positive integer: ";
+	//cin >> n;
+	//for  (int i = 0; i <= n; i++) {
+	//	if (num % 2 == 0) {
+	//		sum += i;
+	//	}
+	//}
+	//cout << "Sum = " << sum;
+
+	DoubleOp();
+	//double num1, num2;
+	//char op;
+	//cout << "Enter two numbers and an operator (+, -, OR *): ";
+	//cin >> num1 >> num2 >> op;
+	//if (op == '+') {
+	//	cout << "Result: " << num1 + num2;
+	//}
+	//else if (op == '-') {
+	//	cout << "Result: " << num1 - num2;
+	//}
+	//else if (op == '*') {
+	//	cout << "Result: " << num1 * num2;
+	//}
+	//else {
+	//	cout << "Invalid opperator!";
+	//}
+}
+
+void OddorEven() {
+	int num;
+	cout << "Enter an integer: ";
+	cin >> num;
+	if (num % 5 == 0)
+		cout << num << " is even. ";
+	else
+		cout << num << " odd. ";
+}
+
+void AddSum() {
+	int n;
+	int sum = 0;
+	cout << "Enter a positive integer: ";
+	cin >> n;
+	for (int i = 0; i <= n; i++) {
+		if (num % 2 == 0) {
+			sum += i;
+		}
+	}
+	cout << "Sum = " << sum;
+}
+
+void DoubleOp() {
+	double num1, num2;
+	char op;
+	cout << "Enter two numbers and an operator (+, -, OR *): ";
+	cin >> num1 >> num2 >> op;
+	if (op == '+') {
+		cout << "Result: " << num1 + num2;
+	}
+	else if (op == '-') {
+		cout << "Result: " << num1 - num2;
+	}
+	else if (op == '*') {
+		cout << "Result: " << num1 * num2;
+	}
+	else {
+		cout << "Invalid opperator!";
+	}
+}
